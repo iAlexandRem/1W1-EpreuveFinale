@@ -1,0 +1,85 @@
+/* /////////////////////////////////////// recette.css */
+.global h1 {
+    text-align: left;
+}
+
+h3 {
+    font-size: 90%;
+}
+
+ol {
+    font-family: "Montserrat", sans-serif;  
+    list-style: none;
+    margin: 0;
+}
+
+figcaption {
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+}
+
+
+
+
+.recetteindienne__div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 16px;
+    gap: 10px;
+}
+
+.recetteindienne__articleA {
+    display: flex;
+    border-style: dotted;
+    border-color: rgba(141, 141, 141, 0);
+    border-width: 30px;
+}
+
+.recetteindienne__articleB {
+    display: flex;
+    border-style: dotted;
+    border-color: rgba(141, 141, 141, 0.363);
+    border-width: 11px;
+}
+
+.recetteindienne__div li {
+    font-size: 12px;
+    line-height: 1.5rem;
+}
+
+.recetteindienne__image01 {
+    transform: rotate(-6deg);
+    
+    border-style: inset;
+    border-color: rgba(141, 141, 141, 0.363);
+    border-width: 10px;
+    border-radius: 20px;
+}
+
+.recetteindienne__image02 {
+    transform: rotate(6deg);
+
+    border-style: inset;
+    border-color: rgba(141, 141, 141, 0.363);
+    border-width: 10px;
+    border-radius: 20px;
+}
+
+
+.recetteindienne__figure {
+    padding: 20px;
+}
+
+.recetteindienne__figure img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.recetteindienne__figure figcaption {
+    background-color: #a2b481;
+    text-align: center;
+    padding: 7px;
+}
